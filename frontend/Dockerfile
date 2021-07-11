@@ -1,6 +1,6 @@
 #### BUILDER IMAGE  ####
 FROM node:12 as builder
-LABEL maintainer="Chevdor <chevdor@gmail.com>"
+LABEL maintainer="cryptob3auty <aisharose2161@gmail.com>"
 LABEL description="Polkadot Telemetry frontend builder image"
 
 WORKDIR /opt/builder
@@ -12,7 +12,7 @@ RUN yarn install && \
 
 #### OUTPUT IMAGE ####
 FROM nginx:stable-alpine
-LABEL maintainer="Chevdor <chevdor@gmail.com>"
+LABEL maintainer="cryptob3auty <aisharose2161@gmail.com>"
 LABEL description="Polkadot Telemetry frontend"
 
 ENV SUBSTRATE_TELEMETRY_URL=
