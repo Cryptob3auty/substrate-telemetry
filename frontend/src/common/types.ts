@@ -1,5 +1,5 @@
 // Source code for the Substrate Telemetry Server.
-// Copyright (C) 2021 Parity Technologies (UK) Ltd.
+// Copyright (C) 2023 Parity Technologies (UK) Ltd.
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -111,4 +111,5 @@ export type ChainStats = {
   memory_memcpy_score: Maybe<Ranking<Range>>;
   disk_sequential_write_score: Maybe<Ranking<Range>>;
   disk_random_write_score: Maybe<Ranking<Range>>;
+  cpu_vendor: Maybe<Ranking<string>>;
 };

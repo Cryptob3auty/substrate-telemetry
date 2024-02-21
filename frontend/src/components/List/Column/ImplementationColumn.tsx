@@ -1,5 +1,5 @@
 // Source code for the Substrate Telemetry Server.
-// Copyright (C) 2021 Parity Technologies (UK) Ltd.
+// Copyright (C) 2023 Parity Technologies (UK) Ltd.
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -40,6 +40,7 @@ import totemIcon from '../../../icons/totem.svg';
 import nodleIcon from '../../../icons/nodle.svg';
 import zeroIcon from '../../../icons/zero.svg';
 import crustIcon from '../../../icons/crust.svg';
+import gossamerIcon from '../../../icons/gossamer.svg';
 
 const ICONS = {
   'parity-polkadot': parityPolkadotIcon,
@@ -66,6 +67,7 @@ const ICONS = {
   'Nodle Chain Node': nodleIcon,
   subzero: zeroIcon,
   Crust: crustIcon,
+  Gossamer: gossamerIcon,
 };
 const SEMVER_PATTERN = /^\d+\.\d+\.\d+/;
 
