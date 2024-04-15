@@ -638,9 +638,11 @@ dependencies = [
 
 [[package]]
 name = "h2"
+
 version = "0.3.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "81fe527a889e1532da5c525686d96d4c2e74cdd345badf8dfef9f6b39dd5f5e8"
+
 dependencies = [
  "bytes",
  "fnv",
@@ -648,7 +650,10 @@ dependencies = [
  "futures-sink",
  "futures-util",
  "http",
+
+
  "indexmap 2.2.6",
+
  "slab",
  "tokio",
  "tokio-util",
@@ -831,9 +836,11 @@ dependencies = [
 
 [[package]]
 name = "indexmap"
+
 version = "2.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "168fb715dda47215e360912c096649d23d58bf392ac62f73919e831745e40f26"
+
 dependencies = [
  "equivalent",
  "hashbrown 0.14.3",
